@@ -1,4 +1,5 @@
 OLED_ENABLE = yes
+OLED_DRIVER = SSD1306
 
 TAP_DANCE_ENABLE = yes
 AUTO_SHIFT_ENABLE = no // disable auto-shift with home row mods
