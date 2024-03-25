@@ -37,4 +37,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define FORCED_SYNC_THROTTLE_MS 1000
 #define SPLIT_USB_DETECT
 #define SPLUT_USB_TIMEOUT 2500
-
+#define COMBO_VARIABLE_LEN

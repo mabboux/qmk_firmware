@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "g/keymap_combo.h"
 
 #define _LAYER0 0
 #define _LAYER1 1
