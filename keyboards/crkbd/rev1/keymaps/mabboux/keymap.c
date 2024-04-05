@@ -19,7 +19,13 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-    [_LAYER0] = LAYOUT(KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSPC, KC_LSFT, LGUI_T(KC_A), LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), KC_G, KC_H, LCTL_T(KC_J), LSFT_T(KC_K), LALT_T(KC_L), LGUI_T(KC_SCLN), KC_RSFT, KC_RCTL, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_DEL, MO(5), MO(1), KC_SPC, KC_ENT, MO(2), KC_RALT),
+    [_LAYER0] = LAYOUT(
+
+        KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSPC, KC_LSFT, LGUI_T(KC_A), LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F), KC_G, KC_H, LCTL_T(KC_J), LSFT_T(KC_K), LALT_T(KC_L), LGUI_T(KC_SCLN), KC_RSFT, 
+        KC_RCTL, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_DEL, 
+        MO(5), MO(1), KC_SPC, KC_ENT, MO(2), KC_RALT
+        
+    ),
 
     [_LAYER1] = LAYOUT(KC_F12, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_EQL, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_MINS, KC_LSFT, KC_RCTL, KC_NO, KC_HOME, KC_END, KC_INS, KC_LALT, KC_LEFT, KC_UP, KC_DOWN, KC_RGHT, KC_NO, KC_LGUI, KC_TRNS, KC_SPC, KC_ENT, MO(3), KC_RALT),
 
@@ -34,3 +40,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 //[_LAYER5] = LAYOUT(KC_BSPC, KC_NO, LSFT(LGUI(KC_C)), LGUI(KC_C), LGUI(KC_V), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_LSFT, LSFT(SCTL(KC_HOME)), LSFT(LCTL(KC_C)), LCTL(KC_C), LCTL(KC_V), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_ENT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO)
+ 
+ 
+  //,-------------------------------------------------------------------------.                    ,-----------------------------------------------------------------------------.
+       KC_TAB,        KC_Q,          KC_W,         KC_E,         KC_R,    KC_T,                         KC_Y          KC_U,         KC_I,         KC_O,            KC_P,  KC_BSPC,
+  //|--------+-------------+-------------+-------------+-------------+--------|                    |--------+-------------+-------------+-------------+----------------+---------|
+      KC_LSFT, LGUI_T(KC_A), LALT_T(KC_S), LSFT_T(KC_D), LCTL_T(KC_F),    KC_G,                         KC_H, LCTL_T(KC_J), LSFT_T(KC_K), LALT_T(KC_L), LGUI_T(KC_SCLN), KC_RSFT,
+  //|--------+-------------+-------------+-------------+-------------+--------|                    |--------+-------------+-------------+-------------+----------------+---------|
+      KC_LCTL,         KC_Z,         KC_X,         KC_C,         KC_V,    KC_B,                         KC_N,         KC_M,      KC_COMM,       KC_DOT,         KC_SLSH,  KC_DEL,
+  //|--------+-------------+-------------+-------------+-------------+--------+--------|  |--------+--------+-------------+-------------+-------------+----------------+---------|
+                                                            MO(5),   MO(1),    KC_SPC,       KC_ENT,   MO(2),   KC_RALT
+                                                          //`--------------------------'  `--------------------------'

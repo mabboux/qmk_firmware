@@ -29,7 +29,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define EE_HANDS
 #define SERIAL_DEBUG
 //#define QUICK_TAP_TERM 0
-//#define TAPPING_TERM 100
+
+// delay for tap/holding
+#define TAPPING_TERM 200
 
 #undef SOFT_SERIAL_PIN
 #define SOFT_SERIAL_PIN D2
