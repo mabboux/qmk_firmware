@@ -78,9 +78,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_LAYER5] = LAYOUT(
 
   //,-------------------------------------------------------------------------.                    ,-----------------------------------------------------------------------------.
-      KC_BSPC,        KC_NO,LSFT(LGUI(KC_C)),LGUI(KC_C),   LGUI(KC_V),   KC_NO,                        KC_NO,        KC_NO,        KC_NO,        KC_NO,           KC_NO,    KC_NO,
+      KC_BSPC,        KC_NO,LSFT(LGUI(KC_C)),     KC_F7,        KC_F8,   KC_F9,                        KC_NO,        KC_NO,        KC_NO,        KC_NO,           KC_NO,    KC_NO,
   //|--------+-------------+-------------+-------------+-------------+--------|                    |--------+-------------+-------------+-------------+----------------+---------|
-      KC_LSFT,LSFT(KC_HOME),LSFT(LCTL(KC_C)),LCTL(KC_C),   LCTL(KC_V),   KC_NO,                        KC_NO,        KC_NO,        KC_NO,        KC_NO,           KC_NO,    KC_NO,
+      KC_LSFT,LSFT(KC_HOME),LSFT(LCTL(KC_C)),LCTL(KC_C),   LCTL(KC_V),   KC_PSCR,                        KC_NO,        KC_NO,        KC_NO,        KC_NO,           KC_NO,    KC_NO,
   //|--------+-------------+-------------+-------------+-------------+--------|                    |--------+-------------+-------------+-------------+----------------+---------|
        KC_ENT,        KC_NO,        KC_NO,        KC_NO,        KC_NO,   KC_NO,                        KC_NO,        KC_NO,        KC_NO,        KC_NO,           KC_NO,    KC_NO, 
   //|--------+-------------+-------------+-------------+-------------+--------+--------|  |--------+--------+-------------+-------------+-------------+----------------+---------|
