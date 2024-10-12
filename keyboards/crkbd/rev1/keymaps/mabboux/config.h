@@ -31,12 +31,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define QUICK_TAP_TERM 0
 
 // delay for tap/holding
-#define TAPPING_TERM 200
+#define TAPPING_TERM 250
 
 #undef SOFT_SERIAL_PIN
 #define SOFT_SERIAL_PIN D2
 #define SELECT_SOFT_SERIAL_SPEED 1
 #define FORCED_SYNC_THROTTLE_MS 1000
-#define SPLIT_USB_DETECT
 #define SPLUT_USB_TIMEOUT 2500
 #define COMBO_VARIABLE_LEN
